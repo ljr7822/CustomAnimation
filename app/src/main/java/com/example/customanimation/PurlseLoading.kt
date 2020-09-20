@@ -87,6 +87,7 @@ class PurlseLoading : View {
 
         for (anim in lists) {
             animators.play(anim)
+
         }
 
     }
