@@ -69,6 +69,9 @@ class PurlseLoading : View {
 
     private var animators = AnimatorSet()
 
+    /**
+     * 创建圆
+     */
     private fun createAnim() {
 
         val lists = mutableListOf<ValueAnimator>()
