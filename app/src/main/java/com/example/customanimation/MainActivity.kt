@@ -11,10 +11,12 @@ class MainActivity : AppCompatActivity() {
 
         mStart.setOnClickListener {
             mouseLoading.startAnim()
+            purlseLoading.startAnim()
         }
 
         mStop.setOnClickListener {
             mouseLoading.stopAnim()
+            purlseLoading.stopAnim()
         }
     }
 }

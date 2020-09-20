@@ -9,6 +9,7 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
 
+
 /**
  * 吃球动画类
  * @author iwen大大怪
@@ -84,7 +85,7 @@ class MouseLoading : View {
             } else {
                 // 宽度顶满
                 ballRadius = width / 8.5f
-                // 判断高度能否容纳8.5个R
+                // 判断高度能否容纳6个R
                 if (6 * ballRadius > height) {
                     // 高度容纳不下
                     ballRadius = height / 6f
